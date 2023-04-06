@@ -4,14 +4,15 @@ export const Wrapper = styled.div`
   color: black;
   background-color: rgb(238, 238, 238);
 
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  //position: absolute;
+  //top: 0;
+  //bottom: 0;
+  //left: 0;
+  //right: 0;
 
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   ${({hasBorder}) => hasBorder && tw`border border-purple-500`}
 `
 
